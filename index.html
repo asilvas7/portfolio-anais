@@ -604,7 +604,14 @@
             Disponible para aprender, colaborar y crear.
         </h2>
 
-        <form class="contact-form">
+        <form
+    class="contact-form"
+    name="contacto"
+    method="POST"
+    data-netlify="true"
+>
+
+<input type="hidden" name="form-name" value="contacto">
 
             <div class="contact-row">
 
@@ -623,7 +630,7 @@
                     <input
                         type="email"
                         id="correo"
-                        name="correo"
+                        name="email"
                         required
                     >
                 </div>
