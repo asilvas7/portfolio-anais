@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Portafolio profesional de Anaís Silva, diseñadora industrial."
+    >
+
+    <title>Portafolio | Anaís Silva</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Menú único: conserva siempre el mismo orden al bajar -->
+    <header class="site-header">
+        <nav class="navigation" aria-label="Navegación principal">
+            <a href="#inicio" class="nav-link active">Inicio</a>
+            <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+            <a href="#portafolio" class="nav-link">Portafolio</a>
+            <a href="#habilidades" class="nav-link">Habilidades</a>
+            <a href="#contacto" class="nav-link">Contacto</a>
+        </nav>
+
+        <a href="mailto:silvaanais055@gmail.com" class="header-button">
+            <span>Hablemos</span>
+            <span aria-hidden="true">✉</span>
+        </a>
+    </header>
+
+    <main class="portfolio">
+
+        <!-- INICIO -->
+        <section class="home-section" id="inicio">
+            <div class="portfolio-panel">
+
+                <aside class="sidebar">
+                    <div class="profile-card">
+                        <div class="sidebar-light"></div>
+
+                        <div class="profile-image">
+                            <img
+                                src="img/perfil-anais.png"
+                                alt="Retrato de Anaís Silva"
+                            >
+                        </div>
+
+                        <div class="profile-info">
+                            <h1 class="profile-name">
+                                <span>Anaís</span> Silva     
+                            </h1>
+
+                            <p class="profile-role">
+                                Diseñadora Industrial
+                            </p>
+
+                            <div class="profile-line"></div>
+
+                            <p class="profile-description">
+                                Diseño soluciones que transforman problemas reales
+                                en productos funcionales, intuitivos y visualmente atractivos.
+                            </p>
+
+                            <div class="profile-line"></div>
+
+                            <p class="profile-location">
+                                <span aria-hidden="true">⌖</span>
+                                Santiago, Chile
+                            </p>
+
+<div class="profile-bottom">
+
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/anais-silva-b38b3421a/" class="social-link" aria-label="LinkedIn">in</a>
+                                <a href="https://www.instagram.com/_siana.ab/" class="social-link" aria-label="Instagram">ig</a>
+                                <a href="https://www.behance.net/siana" class="social-link" aria-label="Behance">Bē</a>
+                                <a
+                                    href="mailto:abs.siana@gmail.com"
+                                    class="social-link"
+                                    aria-label="Correo electrónico"
+                                >✉</a>
+                            </div>
+
+                            <a href="#contacto" class="sidebar-button">
+                                <span>Hablemos</span>
+                                <span aria-hidden="true">↗</span>
+                            </a>
+
+                            <div class="theme-control">
+                                <span aria-hidden="true">☾</span>
+
+                                <button
+                                    class="theme-switch"
+                                    id="themeSwitch"
+                                    type="button"
+                                    aria-label="Cambiar tema"
+                                    aria-pressed="false"
+                                >
+                                    <span class="theme-switch-circle"></span>
+                                </button>
+
+                                <span aria-hidden="true">☀</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <div class="main-content">
+                    <div class="hero-light hero-light-top"></div>
+                    <div class="hero-light hero-light-bottom"></div>
+
+                    <div class="hero-content">
+                        <p class="hero-eyebrow">
+                            <span></span>
+                            Conozcámonos
+                        </p>
+
+                        <h2 class="hero-title">
+                            Soy Anaís Silva,<br>
+                            <span>diseñadora industrial</span><br>
+                        </h2>
+
+                        <p class="hero-description">
+                            Diseño productos funcionales centrados en las personas
+                        </p>
+
+                        <div class="hero-actions">
+                            <a href="#portafolio" class="primary-button">
+                                <span>Mis proyectos</span>
+                                <span aria-hidden="true">↗</span>
+                            </a>
+
+                            <a
+                                href="assets/cv-anais-silva.pdf"
+                                class="secondary-button"
+                                download="CV-Anais-Silva.pdf"
+                            >
+                                <span aria-hidden="true">↓</span>
+                                <span>Descargar CV</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <a
+                        href="#sobre-mi"
+                        class="scroll-indicator"
+                        aria-label="Ir a Sobre mí"
+                    >
+                        <svg
+                            class="scroll-text"
+                            viewBox="0 0 120 120"
+                            aria-hidden="true"
+                        >
+                            <defs>
+                                <path
+                                    id="circlePath"
+                                    d="M 60,60
+                                       m -43,0
+                                       a 43,43 0 1,1 86,0
+                                       a 43,43 0 1,1 -86,0"
+                                />
+                            </defs>
+
+                            <text>
+                                <textPath href="#circlePath">
+                              · CONOCE MÁS SOBRE MÍ · CONOCE MÁS SOBRE MÍ 
+                                </textPath>
+                            </text>
+                        </svg>
+
+                        <span class="scroll-arrow">↓</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE MÍ -->
+        <section id="sobre-mi" class="content-section about-section">
+            <div class="section-inner">
+                <div class="about-heading">
+                    <p class="section-label">Sobre mí</p>
+                    <h2>
+    Diseño experiencias, espacios y productos con
+    <span class="about-accent">enfoque humano.</span>
+</h2>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                         Soy una diseñadora en formación con interés en desarrollar soluciones que 
+                         combinan creatividad, análisis y funcionalidad. Disfruto enfrentar nuevos desafíos, investigar 
+                         distintas perspectivas y transformar ideas en proyectos con propósito, cuidando tanto los 
+                         detalles como la experiencia que generan.
+                         
+                        </p>
+
+                        <p>
+                            Me motiva explorar diferentes áreas del diseño, desde productos y espacios hasta 
+                            experiencias, escenografías y activaciones de marca. Me considero una persona analítica, 
+                            curiosa y esforzada, siempre dispuesta a aprender, experimentar y aportar una mirada 
+                            estratégica a cada proyecto.
+                            
+                        </p>
+                    </div>
+
+                    <div class="about-data">
+                        <div>
+                            <span>Metodología</span>
+                            <strong>Observación · Análisis · Prototipado</strong>
+                        </div>
+
+                        <div>
+                            <span>Áreas de interés</span>
+                            <strong>Experiencias · Escenografía · Producto</strong>
+                        </div>
+
+                        <div>
+                            <span>Proyección</span>
+                            <strong>Dirección Creativa · Diseño de Experiencias</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <!-- PORTAFOLIO -->
+<section id="portafolio" class="content-section portfolio-section">
+    <div class="section-inner">
+
+        <p class="section-label">Proyectos seleccionados</p>
+        <h2 class="section-title">Portafolio</h2>
+
+        <div class="projects-grid">
+
+            <!-- PROYECTO 1 -->
+            <a href="proyecto-sara.html" class="project-card project-wide">
+                <img
+                    src="img/proyecto-sara.png"
+                    alt="Proyecto SARA"
+                >
+
+                <div class="project-overlay">
+                    <span class="project-category">
+                        Diseño Industrial
+                    </span>
+
+                    <h3>SARA</h3>
+
+                    <p>
+                    Sistema de Asistencia y Redistribución Agrícola diseñado para reducir la carga física durante 
+                    la cosecha mediante una distribución ergonómica del peso y un sistema de recambio rápido de sacos.
+                    </p>
+
+                    <span class="project-link">
+                        Ver proyecto ↗
+                    </span>
+                </div>
+            </a>
+
+            <!-- PROYECTO 2 -->
+            <a href="proyecto-modulo.html" class="project-card">
+                <img
+                    src="img/Proyecto-Lumbra.png"
+                    alt="Proyecto Lumbra"
+                >
+
+                <div class="project-overlay">
+                    <span class="project-category">
+                        Diseño Urbano
+                    </span>
+
+                    <h3>Lumbra</h3>
+
+                    <p>
+                   Sistema de iluminación urbana diseñado para mejorar la seguridad, la orientación y la experiencia 
+                   de las personas en espacios públicos mediante una solución funcional e integrada.
+                    </p>
+
+                    <span class="project-link">
+                        Ver proyecto ↗
+                    </span>
+                </div>
+            </a>
+
+            <!-- PROYECTO 3 -->
+            <a href="proyecto-purificador.html" class="project-card">
+                <img
+                    src="img/Proyecto-AromaZen.png"
+                    alt="Proyecto AromaZen"
+                >
+
+                <div class="project-overlay">
+                    <span class="project-category">
+                        Diseño de Producto
+                    </span>
+
+                    <h3>AromaZen</h3>
+
+                    <p>
+                        Base para té diseñada para combinar comodidad, funcionalidad y elegancia, mejorando la experiencia
+                        de servir y disfrutar cada infusión. Su propuesta integra estética y practicidad en un objeto de uso cotidiano.
+                    </p>
+
+                    <span class="project-link">
+                        Ver proyecto ↗
+                    </span>
+                </div>
+            </a>
+            <!-- PROYECTO 4 -->
+            <a href="proyecto-sara.html" class="project-card project-wide">
+                <img
+                    src="img/Proyecto-morpho.png"
+                    alt="Proyecto Morpho"
+                >
+
+                <div class="project-overlay">
+                    <span class="project-category">
+                        Diseño para la Salud
+                    </span>
+
+                    <h3>Morpho</h3>
+
+                    <p>
+                    Dispositivo orientado al bienestar y la rehabilitación física, diseñado para fortalecer 
+                    la interacción entre profesionales de la salud y pacientes mediante una experiencia de uso más cercana y funcional.
+                    </p>
+
+                    <span class="project-link">
+                        Ver proyecto ↗
+                    </span>
+                </div>
+            </a>
+     
+            <!-- PROYECTO 5 -->
+            <a href="proyecto-sara.html" class="project-card">
+                <img
+                    src="img/proyecto-mim.png"
+                    alt="Proyecto Equilibra-T"
+                >
+
+                <div class="project-overlay">
+                    <span class="project-category">
+                        Diseño Educativo
+                    </span>
+
+                    <h3>Equilibra-T</h3>
+
+                    <p>
+                    Rediseño de un módulo interactivo para el Museo Interactivo Mirador (MIM), enfocado 
+                    en mejorar la interacción, la accesibilidad y la experiencia de los visitantes.
+                    </p>
+
+                    <span class="project-link">
+                        Ver proyecto ↗
+                    </span>
+                </div>
+            </a>
+            
+            <!-- PROYECTO 6 -->
+            <a href="proyecto-sara.html" class="project-card">
+                <img
+                    src="img/Proyecto-SoundZ.png"
+                    alt="Proyecto SoundZ"
+                >
+
+                <div class="project-overlay">
+                    <span class="project-category">
+                        Fabricación Digital
+                    </span>
+
+                    <h3>SoundZ</h3>
+
+                    <p>
+                    Parlante desarrollado como proyecto de fabricación digital, integrando procesos como 
+                    corte CNC Router, corte láser, impresión 3D y termoformado para explorar distintas tecnologías
+                   de manufactura aplicadas al desarrollo de un producto funcional.
+                    </p>
+
+                    <span class="project-link">
+                        Ver proyecto ↗
+                    </span>
+                </div>
+            </a>
+
+            <!-- PROYECTO 7 -->
+            <a href="proyecto-sara.html" class="project-card project-wide">
+                <img
+                    src="img/Proyecto-Packaging.png"
+                    alt="Proyecto Not Plastic"
+                >
+
+                <div class="project-overlay">
+                    <span class="project-category">
+                        Desarrollo de Packaging
+                    </span>
+
+                    <h3>Not Plastic</h3>
+
+                    <p>
+                    Sistema de packaging reutilizable que busca reducir el uso de plásticos de un solo 
+                    uso mediante materiales más responsables y una identidad visual consciente.
+                    </p>
+
+                    <span class="project-link">
+                        Ver proyecto ↗
+                    </span>
+                </div>
+            </a>
+
+            <!-- PROYECTO 8 -->
+            <a href="proyecto-sara.html" class="project-card">
+                <img
+                    src="img/proyecto-mivoryjoin.png"
+                    alt="Proyecto Mivory Join"
+                >
+
+                <div class="project-overlay">
+                    <span class="project-category">
+                        Diseño de Juegos
+                    </span>
+
+                    <h3>Mivory Join</h3>
+
+                    <p>
+                    Juego de mesa educativo que combina equilibrio, coordinación y conocimientos generales. 
+                    Los participantes incorporan nuevas piezas al responder correctamente, promoviendo el aprendizaje a través del juego.
+                    </p>
+
+                    <span class="project-link">
+                        Ver proyecto ↗
+                    </span>
+                </div>
+            </a>
+
+            <!-- PROYECTO 9 -->
+            <a href="proyecto-sara.html" class="project-card">
+                <img
+                    src="img/Proyecto-ilumini.png"
+                    alt="Proyecto Ilumini"
+                >
+
+                <div class="project-overlay">
+                    <span class="project-category">
+                        Diseño de Iluminación
+                    </span>
+
+                    <h3>Ilumini</h3>
+
+                    <p>
+                    Lámpara infantil diseñada para estimular el aprendizaje y la imaginación. 
+                    Sus cuatro caras incorporan letras y animales, transformando la iluminación en una experiencia lúdica y educativa.
+                    </p>
+
+                    <span class="project-link">
+                        Ver proyecto ↗
+                    </span>
+                </div>
+            </a>
+
+            <!-- PROYECTO 10 -->
+            <a href="proyecto-sara.html" class="project-card project-wide">
+                <img
+                    src="img/Proyecto-llave.png"
+                    alt="Proyecto Llave Inglesa"
+                >
+
+                <div class="project-overlay">
+                    <span class="project-category">
+                        Rediseño Ergonómico
+                    </span>
+
+                    <h3>Llave Inglesa</h3>
+
+                    <p>
+                    Rediseño ergonómico de una llave inglesa orientado a mejorar el agarre, la comodidad y 
+                    la eficiencia durante su uso, optimizando la interacción entre la herramienta y el usuario.
+                    </p>
+
+                    <span class="project-link">
+                        Ver proyecto ↗
+                    </span>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+       <!-- HABILIDADES -->
+<section id="habilidades" class="content-section skills-section">
+    <div class="section-inner">
+
+        <p class="section-label">Herramientas y capacidades</p>
+        <h2 class="section-title">Habilidades</h2>
+
+        <p class="section-placeholder">
+            Integro herramientas digitales, procesos de fabricación y competencias
+            de diseño para desarrollar proyectos desde la conceptualización hasta
+            su materialización.
+        </p>
+
+        <!-- TRES BLOQUES PRINCIPALES -->
+        <div class="skills-categories">
+
+            <article class="skills-category-card">
+                <span class="skills-number">01</span>
+                <h3>Fabricación</h3>
+                <p>
+              Impresión 3D · Corte Láser · Router CNC · Termoformado · Prototipado
+                </p>
+            </article>
+
+            <article class="skills-category-card">
+                <span class="skills-number">02</span>
+                <h3>Habilidades Técnicas</h3>
+                <p>
+                    Ergonomía · Diseño de Experiencia · Materiales & Procesos · Diseño de Producto · Investigación de Usuario
+                </p>
+            </article>
+
+            <article class="skills-category-card">
+                <span class="skills-number">03</span>
+                <h3>Competencias</h3>
+                <p>
+                    Pensamiento analítico · Trabajo colaborativo · Aprendizaje continuo · Gestión de proyecto · Atención al detalle
+                </p>
+            </article>
+
+        </div>
+
+        <!-- BLOQUE HORIZONTAL DE SOFTWARE -->
+        <div class="software-panel">
+
+            <div class="software-heading">
+                <h3>Software</h3>
+            </div>
+
+            <div class="software-grid">
+
+                <div class="software-card">
+                    <span class="software-icon">Inv</span>
+                    <span>Autodesk Inventor</span>
+                </div>
+
+                <div class="software-card">
+                    <span class="software-icon">Rh</span>
+                    <span>Rhinoceros 3D</span>
+                </div>
+
+                <div class="software-card">
+                    <span class="software-icon">Lr</span>
+                    <span>Lightroom</span>
+                </div>
+
+                <div class="software-card">
+                    <span class="software-icon">Ai</span>
+                    <span>Illustrator</span>
+                </div>
+
+                <div class="software-card">
+                    <span class="software-icon">Ps</span>
+                    <span>Photoshop</span>
+                </div>
+
+                <div class="software-card">
+                    <span class="software-icon">Id</span>
+                    <span>InDesign</span>
+                </div>
+
+                <div class="software-card">
+                    <span class="software-icon">Fi</span>
+                    <span>Figma</span>
+                </div>
+
+                <div class="software-card">
+                    <span class="software-icon">AC</span>
+                    <span>AutoCAD</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <!-- CONTACTO -->
+<section id="contacto" class="content-section contact-section">
+    <div class="section-inner">
+
+        <p class="section-label">Conversemos</p>
+
+        <h2 class="contact-title">
+            Disponible para aprender, colaborar y crear.
+        </h2>
+
+        <form class="contact-form">
+
+            <div class="contact-row">
+
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">Correo</label>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        required
+                    >
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <label for="asunto">Asunto</label>
+                <input
+                    type="text"
+                    id="asunto"
+                    name="asunto"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit" class="contact-button">
+                <span>Enviar mensaje</span>
+                <span aria-hidden="true">↗</span>
+            </button>
+
+        </form>
+
+    </div>
+</section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
