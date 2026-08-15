@@ -1,0 +1,18 @@
+section {
+    position: relative;
+}
+
+.section-number {
+    color: var(--project-accent);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+}
+
+.section-label {
+    color: var(--project-accent);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
